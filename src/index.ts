@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import postcodes from '../result/4pp.json';
 import { getDistanceHageveld } from './utils/distance';
 
-const bo = readFileSync("./data/03-09-2019_03-alle-vestigingen-bo.csv", "utf8");
+const bo = readFileSync("./data/03-alle-vestigingen-bo.csv", "utf8");
 const lines = bo.split("\r\n");
 const headers = lines[0].split(";");
 
